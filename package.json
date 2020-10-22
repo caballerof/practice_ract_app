@@ -1,0 +1,41 @@
+{
+  "name": "practice_ract_app",
+  "version": "1.0.0",
+  "description": "Practicing how to work with React App",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev:server": "webpack-dev-server",
+    "babel": "babel src/app.jsx --out-file=public/scripts/app.js --presets=env,react --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caballerof/practice_ract_app.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "FJ Caballero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caballerof/practice_ract_app/issues"
+  },
+  "homepage": "https://github.com/caballerof/practice_ract_app#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-modal": "^2.2.2",
+    "validator": "^8.0.0"
+  }
+}
